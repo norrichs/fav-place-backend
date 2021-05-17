@@ -35,7 +35,7 @@ app.get("/", (req, res) => {
   res.json({ hello: "Hello World!" });
 });
 
-// Place Routes send to dog router
+// Place Routes send to place router
 app.use("/place", placeRouter);
 
 //LISTENER
